@@ -1,0 +1,27 @@
+﻿.magic{
+    position: relative;
+    top: 300px;
+    left: 300px;
+    z-index: 1;
+    width: 500px;
+    animation:magic 5s linear infinite ;
+}
+@keyframes magic {
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 90deg
+    }
+    50%{
+        rotate: 180deg
+    }
+    75%{
+        rotate: 270deg
+    }
+    100%{
+        rotate: 360deg
+    }
+
+
+}

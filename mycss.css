@@ -1,0 +1,46 @@
+﻿
+.card{
+    position: absolute;
+    width: 376px;
+    height: 512px;
+    top: 50%;
+    left: 30%;
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+.npc{
+    position: absolute;
+    width: 50%;
+    z-index: 4;
+}
+.bg{
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+}
+.bg2{
+    position: absolute;
+    width: 50%;
+    z-index: 3;
+}
+.star{
+    position: absolute;
+    height: 5%;
+    width: auto;
+    bottom: 35%;
+    margin: 50px;
+    z-index: 5;
+}
+.chara-name{
+    position: absolute;
+    color: #fff;
+    font-size:24px;
+    height: 4%;
+    width: auto;
+    bottom: 42%;
+    margin: 58px;
+    letter-spacing: 1px;
+    z-index: 6;
+}
